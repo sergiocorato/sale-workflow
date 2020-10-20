@@ -19,7 +19,7 @@
         "sale_order_dates",
     ],
     "data": [
-        "views/sale_order_view.xml",
+        # "views/sale_order_view.xml",
     ],
     "installable": True,
 }
