@@ -11,7 +11,7 @@ from odoo import api, fields, models
 class SaleOrderLine(models.Model):
     _inherit = 'sale.order.line'
 
-    requested_date = fields.Datetime()
+    requested_date = fields.Datetime(oldname='data_concordata')
 
     @api.multi
     def write(self, vals):
